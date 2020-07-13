@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_horizon"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="横向布局"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/bt_left"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="左侧大布局"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/bt_right"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="右侧大布局"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/bt_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="竖直布局"
+        android:textColor="@color/black" />
+</LinearLayout>

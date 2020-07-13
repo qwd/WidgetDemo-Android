@@ -7,28 +7,27 @@
     android:paddingTop="30dp"
     tools:context=".MainActivity">
 
-
-    <com.heweather.plugin.view.HorizonView
+    <com.heweather.widget.view.HorizonView
         android:id="@+id/horizon_view"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:visibility="gone" />
 
-    <com.heweather.plugin.view.LeftLargeView
+    <com.heweather.widget.view.LeftLargeView
         android:id="@+id/ll_view"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="20dp"
         android:visibility="gone" />
 
-    <com.heweather.plugin.view.RightLargeView
+    <com.heweather.widget.view.RightLargeView
         android:id="@+id/rl_view"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="20dp"
         android:visibility="gone" />
 
-    <com.heweather.plugin.view.VerticalView
+    <com.heweather.widget.view.VerticalView
         android:id="@+id/vertical_view"
         android:layout_width="80dp"
         android:layout_height="wrap_content"

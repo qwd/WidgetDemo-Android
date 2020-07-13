@@ -7,11 +7,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.heweather.plugin.view.HeWeatherConfig;
-import com.heweather.plugin.view.HorizonView;
-import com.heweather.plugin.view.LeftLargeView;
-import com.heweather.plugin.view.RightLargeView;
-import com.heweather.plugin.view.VerticalView;
+import com.heweather.widget.view.HeWeatherConfig;
+import com.heweather.widget.view.HorizonView;
+import com.heweather.widget.view.LeftLargeView;
+import com.heweather.widget.view.RightLargeView;
+import com.heweather.widget.view.VerticalView;
 
 import java.util.ArrayList;
 
